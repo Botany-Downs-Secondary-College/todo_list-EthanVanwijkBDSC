@@ -16,6 +16,7 @@ while stage == 1:
             question = input("add items to the list by typeing them and type end to stop adding items: ")
             list.append(question)
     elif num == 2:
+        list.append(question)
         print(list)
     elif num == 3:
         stage = 2
